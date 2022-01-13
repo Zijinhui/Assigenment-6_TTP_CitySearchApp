@@ -40,16 +40,6 @@ const handleSubmit = (event) => {
 
   return (
   <div>
-<<<<<<< HEAD
-      <nav>
-        <div className ="logo"> <h3>Zip Code Search</h3></div>
-        <ul className="bar">
-        <li>Showing Locations</li>
-        </ul>
-        </nav>
-    <form onSubmit={handleSubmit}>
-      <label>Enter the city:
-=======
     <nav>
       <div className="logo">
           <h3>City Search App</h3>
@@ -59,36 +49,32 @@ const handleSubmit = (event) => {
       </ul>
     </nav>
       
-    <div className="searchBar">City:
-      
+    <div className="searchBar">
+        Type in your City
       <form onSubmit={handleSubmit}>
       
->>>>>>> 3a3b098244b6a894b07f8382b3b5412666dd0544
           <input type="text"
                   name="city"
                   palceholder="city"
-                  onChange={(e) => setCity(e.target.value)} 
-          />
-    
-          <button>Submit</button>
+                  //onChange={(e) => setCity(e.target.value)} 
+          /><br/>
+          <button> Submit</button>
   
       </form>
       </div>
-      <div>
   <ul>
+    <div className="box">
+
         {items.map(item => (
-          <li>
+
+          <li className="list">
             Zipcode: {item}
           </li>
         ))}
-        
+         </div>
     </ul>
-  
-
-    </div>
   </div>
   )}
-
 
 
 

@@ -1,9 +1,6 @@
 body{
-<<<<<<< HEAD
   margin: 0;
-=======
-	margin: 0;
->>>>>>> 3a3b098244b6a894b07f8382b3b5412666dd0544
+
 }
 nav {
   display: flex;
@@ -13,9 +10,20 @@ nav {
   background-color: black;
 
 }
+button{
+	margin: 10px;
+	border-radius: 12px;
+}
+input{
+	margin: 10px;
+	padding: 5px;
+	text-align: center;
+	border-radius: 8px;
+	border-width: 1px;
+}
+
 
 .logo{
-<<<<<<< HEAD
   color: white;
   padding: 0 15px;
   margin: 0 15px;
@@ -34,11 +42,9 @@ nav {
   font-size: 20px;
   text-align: center;
   font-weight: bold;
-=======
-	color: white;
+	color: black;
 	padding: 0 15px;
 	margin: 0 15px;
-
 }
 .bar{
 	font-size: 20px;
@@ -47,35 +53,38 @@ nav {
 	display: flex;
 	list-style-type: none;
 	justify-content: space-around;
-	
 }
 .searchBar {
 	font-size: 20px;
 	text-align: center;
 	font-weight: bold;
->>>>>>> 3a3b098244b6a894b07f8382b3b5412666dd0544
+
 
 
 }
 .input{
-<<<<<<< HEAD
   padding: 8px;
   border-radius: 8px;
   border-width: 1px;
   margin: 20px;
-  
-=======
 	padding: 8px;
 	border-radius: 8px;
 	border-width: 1px;
 	margin: 20px;
 	
 }
+.list {
+	width: 25%;
+	margin: auto;
 
-
-
-
-.body {
-	margin-bottom: 20px;
->>>>>>> 3a3b098244b6a894b07f8382b3b5412666dd0544
+	padding: 10px;
+	font-size: 20px;
+	list-style-type: none;
+	border-radius: 8px;
+	}
+.box{
+	border-radius: 8px;
+	width: 25%;
+	margin: auto;
+	background-color: #E7EAEA;
 }

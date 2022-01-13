@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import GetCity from "./script";
 import App from "./App";
 ReactDOM.render(
   
