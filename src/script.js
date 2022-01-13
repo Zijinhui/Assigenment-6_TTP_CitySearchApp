@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 import { useState } from "react";
@@ -38,3 +39,27 @@ export default function Navbar({getData}) {
         </div> 
     )
 }
+=======
+import { useState } from 'react'
+
+export default function GetCity({}) {
+    const [city, setCity] = useState("")
+  
+    return (
+        <div>
+          <nav>Nav Bar</nav>
+             
+          <form>
+            <label>Enter the city:
+                <input type="text"
+                        value={city}
+                        onChange={(e) => setCity(e.target.value)} />
+  
+            </label>
+          </form>
+  
+        </div>
+       
+    )
+  }
+>>>>>>> 90f23696fa5fc1949c0d22fa5c4d5e661729cd9b
