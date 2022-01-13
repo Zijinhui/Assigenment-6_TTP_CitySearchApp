@@ -1,6 +1,7 @@
 import "./style.css";
 import { useEffect, useState } from 'react'
 import React from 'react'
+import "./style.css"
 
 
 export default function App() {
@@ -39,6 +40,7 @@ const handleSubmit = (event) => {
 
   return (
   <div>
+<<<<<<< HEAD
       <nav>
         <div className ="logo"> <h3>Zip Code Search</h3></div>
         <ul className="bar">
@@ -47,19 +49,33 @@ const handleSubmit = (event) => {
         </nav>
     <form onSubmit={handleSubmit}>
       <label>Enter the city:
+=======
+    <nav>
+      <div className="logo">
+          <h3>City Search App</h3>
+      </div>
+      <ul className="bar">
+        <li>Showing Zip Codes</li>
+      </ul>
+    </nav>
+      
+    <div className="searchBar">City:
+      
+      <form onSubmit={handleSubmit}>
+      
+>>>>>>> 3a3b098244b6a894b07f8382b3b5412666dd0544
           <input type="text"
                   name="city"
                   palceholder="city"
                   onChange={(e) => setCity(e.target.value)} 
           />
-      </label>
-      <button>Submit</button>
+    
+          <button>Submit</button>
   
-    </form>
-
-    <h2>Result:</h2>
-
-    <ul>
+      </form>
+      </div>
+      <div>
+  <ul>
         {items.map(item => (
           <li>
             Zipcode: {item}
@@ -69,6 +85,7 @@ const handleSubmit = (event) => {
     </ul>
   
 
+    </div>
   </div>
   )}
 

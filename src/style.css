@@ -1,5 +1,9 @@
 body{
+<<<<<<< HEAD
   margin: 0;
+=======
+	margin: 0;
+>>>>>>> 3a3b098244b6a894b07f8382b3b5412666dd0544
 }
 nav {
   display: flex;
@@ -11,6 +15,7 @@ nav {
 }
 
 .logo{
+<<<<<<< HEAD
   color: white;
   padding: 0 15px;
   margin: 0 15px;
@@ -29,13 +34,48 @@ nav {
   font-size: 20px;
   text-align: center;
   font-weight: bold;
+=======
+	color: white;
+	padding: 0 15px;
+	margin: 0 15px;
+
+}
+.bar{
+	font-size: 20px;
+	text-align: center;
+	color: white;
+	display: flex;
+	list-style-type: none;
+	justify-content: space-around;
+	
+}
+.searchBar {
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+>>>>>>> 3a3b098244b6a894b07f8382b3b5412666dd0544
 
 
 }
 .input{
+<<<<<<< HEAD
   padding: 8px;
   border-radius: 8px;
   border-width: 1px;
   margin: 20px;
   
+=======
+	padding: 8px;
+	border-radius: 8px;
+	border-width: 1px;
+	margin: 20px;
+	
+}
+
+
+
+
+.body {
+	margin-bottom: 20px;
+>>>>>>> 3a3b098244b6a894b07f8382b3b5412666dd0544
 }
