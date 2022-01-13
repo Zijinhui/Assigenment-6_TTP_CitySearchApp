@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Navbar from "./script";
+import GetCity from "./script";
 import App from "./App";
 ReactDOM.render(
   
