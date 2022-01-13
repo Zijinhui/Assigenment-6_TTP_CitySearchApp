@@ -1,0 +1,41 @@
+body{
+  margin: 0;
+}
+nav {
+  display: flex;
+  float: left;
+  padding: 10px;
+  width: 100%;
+  background-color: black;
+
+}
+
+.logo{
+  color: white;
+  padding: 0 15px;
+  margin: 0 15px;
+
+}
+.bar{
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  
+}
+.searchBar {
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+
+
+}
+.input{
+  padding: 8px;
+  border-radius: 8px;
+  border-width: 1px;
+  margin: 20px;
+  
+}
